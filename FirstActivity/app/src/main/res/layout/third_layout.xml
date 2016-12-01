@@ -13,9 +13,9 @@ android:layout_height="match_parent"
         android:textSize="20sp"
         android:layout_weight="0.34" />
     <!--<ImageView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_weight="1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:scaleType="fitXY"-->
         <!--android:src="@drawable/dead"/>-->
     <Button
     android:id="@+id/button_3"

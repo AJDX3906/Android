@@ -10,6 +10,7 @@
     <!-- padding 内边距   layout_margin 外边距
   		android:layout_alignParentTop 布局的位置是否处于顶部 -->
 
+
     <RelativeLayout
 
         android:layout_width="fill_parent"
@@ -57,27 +58,41 @@
             android:inputType="textPassword"
             android:id="@+id/password_edit"/>
         <!-- 登录button -->
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_edit"
+
+            android:id="@+id/checkBox" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Remember Password"
+            android:layout_toEndOf="@+id/login_password_input"
+            android:layout_alignTop="@+id/checkBox"
+            android:layout_alignStart="@+id/botton2" />
 
         <Button
             android:id="@+id/botton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/password_edit"
-            android:layout_alignRight="@id/password_edit"
             android:text="登陆"
             android:background="#00000000"
             tools:ignore="RtlHardcoded"
-            android:textColor="#00aa00"/>
+            android:textColor="#00aa00"
+            android:layout_below="@+id/checkBox"
+            android:layout_alignParentEnd="true" />
         <!--android:background="@drawable/blue_button" />-->
         <Button
             android:id="@+id/botton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/password_edit"
-            android:layout_toLeftOf="@+id/botton"
             android:background="#00000000"
             android:text="忘记密码"
-            android:textColor="#00aa00"/>
+            android:textColor="#00aa00"
+            android:layout_below="@+id/checkBox"
+            android:layout_toStartOf="@+id/botton" />
     </RelativeLayout>
     <Button
         android:id="@+id/botton1"

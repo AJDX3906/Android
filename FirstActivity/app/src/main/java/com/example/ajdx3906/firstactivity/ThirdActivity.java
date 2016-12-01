@@ -35,6 +35,8 @@ public class ThirdActivity extends BaseActivity {
                 ActivityCollector.finishAll();
             }
         });
+
+
         Button button4 = (Button) findViewById(R.id.button_4) ;  //编辑 button_2 的按键功能，要不然finish 功能 就用不了
         button4.setOnClickListener(new View.OnClickListener() {
             @Override

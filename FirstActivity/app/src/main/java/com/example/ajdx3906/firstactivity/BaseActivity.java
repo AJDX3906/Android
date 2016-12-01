@@ -1,6 +1,7 @@
 package com.example.ajdx3906.firstactivity;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -18,6 +19,7 @@ public class BaseActivity extends Activity {
      */
     private GoogleApiClient client;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,7 @@ public class BaseActivity extends Activity {
 
     protected void onDestroy(){
         super.onDestroy();
+
         ActivityCollector.addActivity(this);
     }
 
