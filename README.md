@@ -1,7 +1,7 @@
 # RedRock
 ## Android Homework.
 -  *第1次*：*Level 3*  FirstActivity （增加了注册功能/一次性的)
--  *第2次*：*Level 2*  RecyclerViewCourse
+-  *第2次*：*Level 2*  RecyclerViewCourse （截图在下面）
 
 ###1截图：
 ![image](https://github.com/AJDX3906/Android/raw/master/FirstActivity/picture/1.png)
