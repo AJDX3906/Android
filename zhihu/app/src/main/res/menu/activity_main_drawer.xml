@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/首页"
+            android:icon="@drawable/house1"
+            android:title="首页"
+            />
+        <item
+            android:id="@+id/日常心理"
+
+            android:title="日常心理学" />
+        <item
+            android:id="@+id/用户推荐日报"
+
+            android:title="用户推荐日报" />
+        <item
+            android:id="@+id/电影日报"
+
+            android:title="电影日报" />
+        <item
+            android:id="@+id/不许无聊"
+
+            android:title="不许无聊" />
+        <item
+            android:id="@+id/大公司"
+
+            android:title="大公司日报" />
+
+
+
+
+
+    </group>
+
+</menu>
